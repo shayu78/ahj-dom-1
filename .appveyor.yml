@@ -19,6 +19,10 @@ build_script:
 test_script:
   - yarn lint && yarn test  # скрипт тестирования
 
+environment:
+  access_token:
+    secure: 8402a08f1c2964bae8e94bca714d7c811d6646b4
+
 deploy_script: # скрипт развёртывания
 - git config --global credential.helper store
 - git config --global user.name "Alexey Shishkin"

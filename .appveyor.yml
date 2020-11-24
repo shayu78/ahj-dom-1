@@ -21,7 +21,7 @@ test_script:
 
 environment:
   access_token:
-    secure: 8402a08f1c2964bae8e94bca714d7c811d6646b4
+    secure: 3aecce279e9b5c3d8dea95dbfbdb2d52c9316813
 
 deploy_script: # скрипт развёртывания
 - git config --global credential.helper store
